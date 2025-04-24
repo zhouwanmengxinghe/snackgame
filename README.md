@@ -1,32 +1,32 @@
-# 贪吃蛇游戏
+# Snake Game
 
 
-## 编译运行
+## Compile and Run
 ```bash
 javac *.java
 java SnakeGame
 ```
-SnackeGame.java为游戏主类
+SnackeGame.java is the main class
 
-## 实现的额外功能
-1. 分数统计系统 - 实时显示当前得分
-2. 生命系统 - 初始1条生命，可通过红色心形道具补充
-3. 双倍分数道具 - 黄色心形可获2分
-4. 动态速度机制 - 蛇的移动速度回随着蛇身的增长而增加
-5. 开始/结束菜单 - 含游戏规则查看功能,游戏结束后会显示得分，按空格键可以重新开始
-6. 鼠标交互 - 点击"Rules"查看游戏规则
+## Additional Features
+1. Score system - Real-time display of current score
+2. Life system - Initial 1 life, can be replenished by red heart prop
+3. Double score prop - Yellow heart gives 2 points
+4. Dynamic speed mechanism - Snake's speed increases as its body grows
+5. Start/End menu - Includes game rules, displays score after game over, press space to restart
+6. Mouse interaction - Click "Rules" to view game rules
 
-## 操作说明
-- 方向键：控制蛇移动
-- 空格键：开始游戏/重新开始
-- 鼠标点击：菜单界面点击"Rules"查看规则
+## Controls
+- Direction keys: Control snake movement
+- Space: Start game/Restart
+- Mouse click: Click "Rules" in menu to view rules
 
-## 特殊道具
-- 绿色苹果：+1分
-- 红色心形：+1生命
-- 黄色心形：+2分
+## Special Props
+- Green apple: +1 point
+- Red heart: +1 life
+- Yellow heart: +2 points
 
-## 游戏机制
-- 碰撞墙壁或自身会消耗生命
-- 生命耗尽游戏结束
-- 蛇身越长蛇移动速度越快，最大长度为20
+## Game Mechanics
+- Colliding with walls or self consumes life
+- Game ends when life runs out
+- Snake moves faster as its body grows, maximum length is 20

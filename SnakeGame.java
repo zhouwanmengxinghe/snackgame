@@ -18,15 +18,12 @@ public class SnakeGame extends GameEngine {
     private static int maxLen = 20;
     // Initial snake length
     private static int initLen = 3;
-    // Initial lives
     private static int initLives = 1;
     // Initial move delay
     private static double initDelay = 0.5;
     // Minimum move delay
     private static double minDelay = 0.05;
-    // Minimum heart item occur delay
     private static double minHeartDelay = 5.0;
-    // Maximum heart item occur delay
     private static double maxHeartDelay = 15.0;
     
     // Snake object

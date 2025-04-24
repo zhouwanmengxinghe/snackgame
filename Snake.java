@@ -12,11 +12,11 @@ public class Snake {
     private ArrayList<Integer> snakeY; // Snake body Y coordinates
     private int direction; // Snake direction
     private int length; // Snake length
-    private final int maxLength; // Maximum length
-    private final int initialLength; // Initial length
-    private double moveDelay; // Move delay
-    private final double initialMoveDelay; // Initial move delay
-    private final double minMoveDelay; // Minimum move delay
+    private final int maxLength; 
+    private final int initialLength; 
+    private double moveDelay; 
+    private final double initialMoveDelay; 
+    private final double minMoveDelay; 
     
     
      // Constructor
